@@ -1,0 +1,31 @@
+{
+  "name": "useful-nunjucks-filters",
+  "version": "0.1.0",
+  "description": "Collection of useful Nunjucks template filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec --ui tdd --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belsrc/useful-nunjucks-filters.git"
+  },
+  "keywords": [
+    "nunjucks",
+    "templates",
+    "filters"
+  ],
+  "author": "Bryan Kizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belsrc/useful-nunjucks-filters/issues"
+  },
+  "homepage": "https://github.com/belsrc/useful-nunjucks-filters#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "nunjucks": "^2.5.2"
+  }
+}
